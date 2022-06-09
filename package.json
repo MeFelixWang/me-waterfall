@@ -1,0 +1,31 @@
+{
+  "name": "me-waterfall",
+  "version": "1.0.0",
+  "miniprogram": "lib",
+  "description": "me-waterfall 是一个微信小程序瀑布流组件库，实现简单，侵入性小，贴近 web 端的效果。",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeFelixWang/me-waterfall.git"
+  },
+  "keywords": [
+    "微信小程序",
+    "瀑布流"
+  ],
+  "author": "MeFelixWang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeFelixWang/me-waterfall/issues"
+  },
+  "homepage": "https://github.com/MeFelixWang/me-waterfall#readme"
+}
