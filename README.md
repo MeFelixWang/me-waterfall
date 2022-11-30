@@ -8,7 +8,7 @@ me-waterfall 是一个微信小程序瀑布流组件库，实现简单，侵入�
 
 ![小程序](./assets/miniprogram.jpg)
 
-![example]('./assets/example.jpg')
+![example](./assets/example.jpg)
 
 example下是使用示例demo，直接复制到小程序项目中添加页面路径可查看示例demo效果
 
