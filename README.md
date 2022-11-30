@@ -38,9 +38,9 @@ npm install me-waterfall
 ```xml
 <me-waterfall>
     <me-waterfall-item wx:for="{{list}}" wx:key="{{index}}">
-        <image src="{{item.src}}"/>
+        <image src="{{item.src}}" style="height:{{item.height}}px;width:100%"/>
     </me-waterfall-item>
-</me-waterfall-item>
+</me-waterfall>
 ```
 
 ## API
@@ -54,7 +54,6 @@ npm install me-waterfall
 | width       | 容器宽度，传入后将优先使用此值，呈现速度更快 | Number | -  |  否  |
 | column       | 列数             | Number | 2      | 否 |
 | gap          | 列与列之间的间距 | Number | 15     | 否 |
-| custom-class | 外部样式类       | String      | -      | 否 |
 
 #### methods
 
@@ -68,13 +67,19 @@ const waterfallInstance = this.selectComponent("#waterfall");
 waterfallInstance.reflow();
 ```
 
+#### 外部样式类
+
+| 参数         | 说明             | 类型   | 默认值 | 是否必须 |
+| ------------ | ---------------- | ------ | ------ | ----- |
+| custom-class | 外部样式类       | String      | -      | 否 |
+
 ### waterfall-item 组件
 
-#### props
+#### 外部样式类
 
-| 参数 | 说明 | 类型 | 默认值 | 是否必须 |
-| ------ | ------ | ------ | ------ | ------ |
-| custom-class | 外部样式类 | String | - | 否 |
+| 参数         | 说明             | 类型   | 默认值 | 是否必须 |
+| ------------ | ---------------- | ------ | ------ | ----- |
+| custom-class | 外部样式类       | String      | -      | 否 |
 
 ## 关于性能
 
