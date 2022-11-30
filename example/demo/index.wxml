@@ -1,0 +1,5 @@
+<me-waterfall gap="{{10}}" width="{{375}}">
+    <me-waterfall-item class="waterfall-item" wx:for="{{articles}}" wx:key="index">
+        <image src="{{item.coverImage}}"  style="height:{{item.realHeight}}rpx;width:100%"/>
+    </me-waterfall-item>
+</me-waterfall>
